@@ -3,13 +3,11 @@ from typing import Callable, List, Any
 # GENERAL
 
 def process_input_file(input_file: str, line_processor: Callable) -> List[Any]:
-    """"""
     result_list = []
 
     with open(input_file, 'r') as f:
         line = f.readline()
         while line:
-            line
             result_list.append(line_processor(line.strip()))
             line = f.readline()
     return result_list
