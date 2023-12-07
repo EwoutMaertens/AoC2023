@@ -72,10 +72,10 @@ def process_result_list_p2(result_list: List[str]) -> int:
 
 # MAIN
 
-print("Part 1 - Answer")
-print(process_result_list_p1(process_input_file('input.txt', process_input_line_p1)))
-print("-----------------\n")
+print(f"Part 1 - Sample answer: \t{process_result_list_p1(process_input_file('sample1.txt', process_input_line_p1))}")
+print(f"Part 1 - Answer:        \t{process_result_list_p1(process_input_file('input.txt', process_input_line_p1))}")
+print("----------------------------------------------\n")
 
-print("Part 2 - Answer")
-print(process_result_list_p2(process_input_file('input.txt', process_input_line_p2)))
-print("-----------------\n")
+print(f"Part 2 - Sample answer: \t{process_result_list_p2(process_input_file('sample2.txt', process_input_line_p2))}")
+print(f"Part 2 - Answer:        \t{process_result_list_p2(process_input_file('input.txt', process_input_line_p2))}")
+print("----------------------------------------------\n")
